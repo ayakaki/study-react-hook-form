@@ -1,7 +1,7 @@
 'use client';
 import { registerUserSchema } from '@/schema/registerUserSchema';
 import { useState } from 'react';
-import { MyInput } from '../components/MyInput';
+import { MyInput } from './MyInput';
 
 export const ZodOnlyForm = () => {
   const [yourName, setYourName] = useState('');
